@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: #f5f5f5; }
+  body #displayAll:checked ~ #container table button, body #boardPage {
+    display: none; }
+  body table {
+    border: 1px solid gray;
+    border-collapse: collapse; }
+    body table td, body table button {
+      width: 30px;
+      height: 30px; }
+    body table td {
+      line-height: 0;
+      padding: 0;
+      position: relative;
+      border: 1px solid grey; }
+      body table td button {
+        position: absolute;
+        top: 0;
+        left: 0; }
+  body #radio-buttons, body #uname, body h1, body table {
+    margin: 10px auto; }
+  body .bomb {
+    background-image: url("http://yms299.org/wp-content/uploads/2013/11/icon-mine-e1384192194505.png");
+    background-size: 16px;
+    border: 1px solid grey;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
