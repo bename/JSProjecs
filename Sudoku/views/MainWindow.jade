@@ -1,52 +1,29 @@
-<<<<<<< f757af95caf157c685e2bf96e1d9934a0a632204
 doctype html
 html
 head
-    title Mine Sweeper
-    link(rel='stylesheet', href='./../mineSweeper.css')
+    title Sudoku
+    link(rel='stylesheet' type="text/css" href='./Sudoku.css')
+    link(href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet")
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
-    script(src="/javascripts/main.js")
+    script(src='/public/javascripts/main.js')
 block body
     div#boardPage
-        input#displayAll(type='checkbox')
+       // input#displayAll(type='checkbox')
+        lable(for='displayAll')  Hello
         lable(for='displayAll')  display bombs
         div#container
     div#homePage
-        form(action='/board', method='POST')
+        form(action='/GameWindow', method='POST')
             lable(for='uname')
-            h2  Name:
+            h2  Start new game:
             input#uname(type='text', name='UserName', placeholder='Enter Your name')
-            #radio-buttons
-                lable(for='rbutton10')  10X10
-                input#rbutton10(type='radio', name='boardSize', value='10')
-                lable(for='rbutton25')  25X25
-                input#rbutton25(type='radio', name='boardSize', value='25')
-                lable(for='rbutton50')  50X50
-                input#rbutton50(type='radio', name='boardSize', value='50')
-=======
-doctype html
-html
-head
-    title Mine Sweeper
-    link(rel='stylesheet', href='./../mineSweeper.css')
-    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js')
-    script(src="/javascripts/main.js")
-block body
-    div#boardPage
-        input#displayAll(type='checkbox')
-        lable(for='displayAll')  display bombs
-        div#container
-    div#homePage
-        form(action='/board', method='POST')
-            lable(for='uname')
-            h2  Name:
-            input#uname(type='text', name='UserName', placeholder='Enter Your name')
-            #radio-buttons
-                lable(for='rbutton10')  10X10
-                input#rbutton10(type='radio', name='boardSize', value='10')
-                lable(for='rbutton25')  25X25
-                input#rbutton25(type='radio', name='boardSize', value='25')
-                lable(for='rbutton50')  50X50
-                input#rbutton50(type='radio', name='boardSize', value='50')
->>>>>>> [+] Sudoku project
+            #radio-button1
+                input#rbutton10(type='radio', name='difficulty', value='Easy')
+                lable(for='rbutton10')  Easy
+            #radio-button2
+                input#rbutton25(type='radio', name='difficulty', value='Medium')
+                lable(for='rbutton25')  Medium
+            #radio-button3
+                input#rbutton50(type='radio', name='difficulty', value='Hard')
+                lable(for='rbutton50')  Hard
             button Start

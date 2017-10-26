@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <title>Sudoku</title>
+    <link rel="stylesheet" type="text/css" href="./Sudoku.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="/public/javascripts/main.js"></script>
+</head>
+<div id="boardPage">
+    <!-- input#displayAll(type='checkbox')
+    lable(for='displayAll')  Hello
+    lable(for='displayAll')  display bombs
+    div#container
+    -->
+</div>
+<div id="homePage">
+    <form action="/GameWindow" method="POST">
+        <lable for="uname"></lable>
+        <h2> Start new game:</h2>
+        <input id="uname" type="text" name="UserName" placeholder="Enter Your name">
+        <div id="radio-button1">
+            <input id="rbutton10" type="radio" name="difficulty" value="Easy">
+            <lable for="rbutton10"> Easy</lable>
+        </div>
+        <div id="radio-button2">
+            <input id="rbutton25" type="radio" name="difficulty" value="Medium">
+            <lable for="rbutton25"> Medium</lable>
+        </div>
+        <div id="radio-button3">
+            <input id="rbutton50" type="radio" name="difficulty" value="Hard">
+            <lable for="rbutton50"> Hard</lable>
+        </div>
+        <button>Start</button>
+    </form>
+</div>

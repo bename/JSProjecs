@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+
+    background: #CEF0D4  }
+body #displayAll:checked ~ #container table button, body #boardPage {
+    display: none; }
+
+table {
+    position: absolute;
+    left: 0%;
+    top: 80%;
+    width: 500px;
+    height: 500px;
+}
+p{
+    position: absolute;
+    font-family: 'Pacifico';, cursive; font-weight: lighter; line-height: 70px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #bc2a24;
+    font-size: 71px;
+    left: 32%
+}
+h1{
+    position: absolute;
+    line-height: 250px;
+    font-family: "Geeza Pro";
+    left: 33%
+}
+button{
+    position: absolute;
+    left: 13%;
+}
+
+
+
+table, tr, td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+input[type="text"], textarea {
+border: hidden;
+    background-color : #CEF0D4;
+    height: 35px;
+    width  : 15px;
+    font-size: x-large;
+
+}
+#cell_0_2,#cell_1_2,#cell_2_2,#cell_3_2,#cell_4_2,#cell_5_2,#cell_6_2,#cell_7_2,#cell_8_2,#cell_9_2
+{
+    border-bottom-width: 5px
+}
+#cell_0_5,#cell_1_5,#cell_2_5,#cell_3_5,#cell_4_5,#cell_5_5,#cell_6_5,#cell_7_5,#cell_8_5,#cell_9_5
+{
+    border-bottom-width: 5px
+}
+#cell_2_0,#cell_2_1,#cell_2_2,#cell_2_3,#cell_2_4,#cell_2_5,#cell_2_6,#cell_2_7,#cell_2_8,#cell_2_9
+{
+    border-right-width: 5px
+}
+#cell_5_0,#cell_5_1,#cell_5_2,#cell_5_3,#cell_5_4,#cell_5_5,#cell_5_6,#cell_5_7,#cell_5_8,#cell_5_9
+{
+    border-right-width: 5px
+}
+
+
+#submit{
+    font: 300 1rem 'Lato', Verdana, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0px;
+    background-color: #009ac9;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-weight: 200;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width:110px;
+    height:40px;
+    position:absolute;
+    top: 80%;
+    left: 43.1%;
+}
+h2{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    color:  red;
+    font-size: 400px;
+
+}

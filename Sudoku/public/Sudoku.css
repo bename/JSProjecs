@@ -1,0 +1,102 @@
+
+body {
+  text-align: center;
+  background: #6DB3F2 url('https://techreviewpro.com/wp-content/uploads//2015/07/Early-Sunrise-Wide-Cool-Desktop-Background-Wallpaper.jpg'); }
+  body #displayAll:checked ~ #container table button, body #boardPage {
+    display: none; }
+  body table {
+    border: 1px solid gray;
+    border-collapse: collapse; }
+
+    body table td, body table button {
+      width: 50px;
+      height: 30px; }
+    body table td {
+      line-height: 20;
+      padding: 0;
+      position: relative;
+      border: 1px solid grey; }
+      body table td button {
+        position: absolute;
+        top: 0;
+        left: 0; }
+  body #radio-buttons,#uname, body h1,h2, #Start, body table {
+    margin: 1px auto;
+    height: 2px;
+    line-height: 50px;
+
+
+
+  }
+h2{
+  color: #CEF0D4; font-family: 'Julius Sans One', cursive; font-weight: lighter; line-height: 48px; margin: 0 0 50px; text-align: center; text-shadow: 1px 1px 2px #082b34;
+  font-size: 500%;
+  position:absolute;
+  top: 10%;
+  left: 31.8%;
+}
+#radio-button1 {
+  position: absolute;
+  top: 23%;
+  left: 27.9%;
+  font-weight:bold;
+  width: 100px;
+  height: 20px;
+  font-family: 'Pacifico';
+  font-size: 30px;
+  padding-bottom: 30px;
+  color: #082b34;
+}
+#radio-button2 {
+  font-weight:bold;
+  position: absolute;
+  top: 30%;
+  left: 26.5%;
+  display:block;
+  width: 200px;
+  float:left;
+  font-size: 30px;
+  font-family: 'Pacifico';
+  color: #082b34;}
+#radio-button3 {
+  font-weight:bold;
+  position: absolute;
+  display:block;
+  top: 37%;
+  left: 28.1%;
+  width: 100px;
+  float:right;
+  font-size: 30px;
+  font-family: 'Pacifico';
+  color: #082b34;}
+
+#uname{
+  height: 34px;
+  position:absolute;
+  top: 24%;
+  left: 40%;
+  width: 300px;
+}
+
+button {
+
+  font: 300 1rem 'Lato', Verdana, Helvetica, sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  padding: 0px;
+  background-color: #009ac9;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 200;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width:110px;
+  height:40px;
+  position:absolute;
+  top: 32%;
+  left: 44.5%;
+
+}
